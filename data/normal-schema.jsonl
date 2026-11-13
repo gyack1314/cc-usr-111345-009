@@ -1,0 +1,3 @@
+{"id": "tokens", "precision": null, "scale": null, "type": "int64"}
+{"id": "price", "precision": 12, "scale": 6, "type": "decimal"}
+{"id": "enabled", "precision": null, "scale": null, "type": "bool"}

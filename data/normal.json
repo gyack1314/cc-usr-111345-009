@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "tables": {
+    "schema": {
+      "file": "normal-schema.jsonl",
+      "sha256": "509861197554085a7aeda1e26620feb2b768075887715c9cdfef951173970aeb",
+      "bytes": 200,
+      "rows": 3,
+      "fields": [
+        "id",
+        "type",
+        "precision",
+        "scale"
+      ]
+    },
+    "rows": {
+      "file": "normal-rows.jsonl",
+      "sha256": "a6e20641f8b325aad44e3549f4b18e3c5b8c0676f5c04c7954f42d81ab2f3852",
+      "bytes": 202,
+      "rows": 3,
+      "fields": [
+        "id",
+        "tokens",
+        "price",
+        "enabled"
+      ]
+    },
+    "expressions": {
+      "file": "normal-expressions.jsonl",
+      "sha256": "c0b9a597b25df2ef26b180133cbe56efe18f7d7889fb865c87ead5bd3d9f2e85",
+      "bytes": 213,
+      "rows": 1,
+      "fields": [
+        "id",
+        "ast"
+      ]
+    },
+    "numeric_policy": {
+      "file": "normal-numeric_policy.jsonl",
+      "sha256": "4683b81fd39ea64d79e07f751772bc1dc10cb0e44230c382144eab029cc659e8",
+      "bytes": 63,
+      "rows": 1,
+      "fields": [
+        "id",
+        "rounding",
+        "maximum_precision"
+      ]
+    }
+  }
+}

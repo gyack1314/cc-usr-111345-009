@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "tables": {
+    "schema": {
+      "file": "boundary-schema.jsonl",
+      "sha256": "509861197554085a7aeda1e26620feb2b768075887715c9cdfef951173970aeb",
+      "bytes": 200,
+      "rows": 3,
+      "fields": [
+        "id",
+        "type",
+        "precision",
+        "scale"
+      ]
+    },
+    "rows": {
+      "file": "boundary-rows.jsonl",
+      "sha256": "a5c251ed2ddb41bea0ac917b2196f7d2ca9cf7d1e80cda5f3a1f5e0faf298d13",
+      "bytes": 201,
+      "rows": 3,
+      "fields": [
+        "id",
+        "tokens",
+        "price",
+        "enabled"
+      ]
+    },
+    "expressions": {
+      "file": "boundary-expressions.jsonl",
+      "sha256": "c0b9a597b25df2ef26b180133cbe56efe18f7d7889fb865c87ead5bd3d9f2e85",
+      "bytes": 213,
+      "rows": 1,
+      "fields": [
+        "id",
+        "ast"
+      ]
+    },
+    "numeric_policy": {
+      "file": "boundary-numeric_policy.jsonl",
+      "sha256": "4683b81fd39ea64d79e07f751772bc1dc10cb0e44230c382144eab029cc659e8",
+      "bytes": 63,
+      "rows": 1,
+      "fields": [
+        "id",
+        "rounding",
+        "maximum_precision"
+      ]
+    }
+  }
+}

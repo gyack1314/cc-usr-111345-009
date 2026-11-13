@@ -1,0 +1,1 @@
+{"ast": {"else": {"literal": "0.000000", "type": "decimal(12,6)"}, "op": "case", "then": {"left": {"column": "tokens"}, "op": "multiply", "right": {"column": "price"}}, "when": {"column": "enabled"}}, "id": "e1"}
